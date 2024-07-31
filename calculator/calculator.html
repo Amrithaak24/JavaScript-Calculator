@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="calculator.css" rel="stylesheet">
+    
+</head>
+<body> 
+  <script src="calculator.js"></script>
+  <section class="main-body">
+    <div class="calculation">
+        <input id="screen">
+    </div>
+    <div class="buttons">
+        <div class="row">
+   <button onclick="click(clearDisplay())" class="calbtn clrbtn" >C</button></div>
+   <div class="row">
+    <button onclick="buttonClick(7)" class="calbtn">7</button>
+    <button onclick="buttonClick(8)"  class="calbtn">8</button>
+    <button onclick="buttonClick(9)" class="calbtn">9</button>
+    <button onclick="buttonClick('/')" class="calbtn symbtn">/</button>
+   </div>
+   <div class="row">
+    <button onclick="buttonClick(4)" class="calbtn">4</button>
+    <button onclick="buttonClick(5)" class="calbtn">5</button>
+    <button onclick="buttonClick(6)" class="calbtn">6</button>
+    <button onclick="buttonClick('*')" class="calbtn symbtn">*</button>
+   </div>
+   <div class="row">
+    <button onclick="buttonClick(1)" class="calbtn">1</button>
+    <button onclick="buttonClick(2)" class="calbtn">2</button>
+    <button onclick="buttonClick(3)" class="calbtn">3</button >
+    <button onclick="buttonClick('-')" class="calbtn symbtn">-</button>
+   </div>
+   <div class="row">
+    <button onclick="buttonClick('.')" class="calbtn symbtn">.</button>
+    <button onclick="buttonClick(0)" class="calbtn">0</button>
+    <button onclick="buttonClick('+')" class="calbtn symbtn">+</button>
+    <button onclick="equalClick()" class="calbtn symbtn">=</button>
+   </div>
+    </div>
+  </section>  
+ 
+</body>
+</html>
